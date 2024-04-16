@@ -4,8 +4,8 @@
 
 typedef struct code{
     int num;
-    char txt[100];
-    char txt_tach[100];
+    char txt[1000];
+    char txt_tach[1000];
 }code;
 
 int compare(const void *a, const void *b) {
