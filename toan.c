@@ -41,5 +41,3 @@ for (int i = 1; i <= n; i++)
         d++;
     m++;
 }
-printf("%d", d);
- for (int i = 1; i <= n; i++) printf("%d %s %d\n", a[i].d, a[i].name, a[i].change); return 0; }
