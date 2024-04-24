@@ -32,7 +32,7 @@ for (int i = 1; i <= n; i++)
     i = k - 1;
     int t = maxx(maxx(s, v), j);
     if (s == t)
-        s1[m] = 1;
+        s1[m] = 24/4;
     if (v == t)
         v1[m] = 1;
     if (j == t)
@@ -40,4 +40,4 @@ for (int i = 1; i <= n; i++)
     if (s1[m] != s1[m - 1] || v1[m] != v1[m - 1] || j1[m] != j1[m - 1])
         d++;
     m++;
-}
+} 
